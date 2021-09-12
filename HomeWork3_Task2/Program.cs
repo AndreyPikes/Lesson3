@@ -26,7 +26,7 @@ namespace HomeWork3_Task2
                     summ += currentNumber;
                 }
             }
-            while (currentNumber != 0);
+            while (currentNumber != 0 || !isRightInput);
 
             Console.WriteLine("Результат:");
 
